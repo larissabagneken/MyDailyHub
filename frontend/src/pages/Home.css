@@ -1,0 +1,73 @@
+.home {
+  font-family: "Poppins", sans-serif;
+  color: #1e3a8a;
+  text-align: center;
+  background: linear-gradient(to bottom right, #f0f4ff, #dbeafe);
+  min-height: 100vh;
+  padding: 50px 20px;
+}
+
+/* Section principale (hero) */
+.hero {
+  margin-top: 80px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  color: #1e40af;
+}
+
+.hero span {
+  color: #2563eb;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #374151;
+}
+
+.cta {
+  margin-top: 25px;
+  padding: 12px 25px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #1e3a8a;
+}
+
+/* Section des avantages */
+.features {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 25px;
+  width: 270px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+}
+
+.feature-card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
